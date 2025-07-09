@@ -1,0 +1,11 @@
+# Python stuff
+__pycache__/
+*.py[cod]
+.env
+*.env
+
+# Azure/OpenAI keys
+**/secret_keys.py
+
+# VS Code settings
+.vscode/
