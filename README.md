@@ -7,7 +7,7 @@ A tool to automatically classify and annotate user prompt/response pairs against
 <!-- - **OWASP LLM Top 10** (Top 10 Risks for LLM‑Driven Applications) -->  
 *OWASP support is currently disabled.*
 
-## 🚀 Features
+##  Features
 
 1. **Category Detection**  
    Automatically detect which of 8 high‑level risk categories a prompt/response pair belongs to  
@@ -21,7 +21,7 @@ A tool to automatically classify and annotate user prompt/response pairs against
 3. **Modular Runners**  
    Separate runner modules (`run_mitre.py`, `run_nist.py`) each load the appropriate schema + system prompt to get structured JSON annotations from your Azure OpenAI instance.
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 aiXamine-Frameworks-Mappings/
@@ -118,11 +118,7 @@ with open("analysis_results.json", "w") as fout:
     json.dump(results, fout, indent=2)
 ```
 
-## 🛠️ Customization
+##  Customization
 
 - **System Prompts:** Edit templates in `systemprompts/`
 - **Schemas:** Update JSON files in `schemas/` as frameworks evolve
-
-## 📄 License
-
-MIT © 2025
